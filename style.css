@@ -39,3 +39,91 @@
     padding: 10px 18px;
     background-color: tomato;
 }
+
+.second-section h1 {
+    margin-top: 80px;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.second-section p {
+    font-size: 23px;
+    text-align: center;
+    padding: 20px 20%;
+    margin-bottom: 30px;
+}
+
+.boxer {
+    display: flex;
+    padding: 30px;
+
+}
+
+.boxes {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px;
+    border: 2px solid grey;
+    margin-left: 60px;
+    margin-right: 20px;
+    background-color: antiquewhite;
+}
+
+#speacial-box {
+    color: red;
+    background-color: rgba(240, 200, 200, 0.911);
+    border: 2px solid red
+}
+
+#Ammount {
+    text-align: center;
+    padding: 5px;
+}
+
+hr {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Donate-Plan {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.icon-boxes {
+    display: flex;
+}
+
+.icon-text {
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+.icon-box p {
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.icon-box {
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    box-shadow: 7px 5px 20px gray;
+    border-radius: 10px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    margin-left: 25px;
+    border: 2px solid rgb(190, 230, 131);
+    background-color: aliceblue;
+}
+
+.icon-box img {
+    margin-bottom: 10px;
+    width: 25%;
+    padding-top: 20px;
+}
