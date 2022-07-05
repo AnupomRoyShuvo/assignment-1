@@ -242,9 +242,11 @@ hr {
     text-align: center;
     background-color: rgb(43, 39, 39);
 }
+
 .footer h1 {
     padding-top: 5%;
 }
-.footer p{
+
+.footer p {
     color: rgb(245, 127, 30);
 }
