@@ -103,13 +103,16 @@ hr {
     font-size: 25px;
     text-align: center;
     padding: 30px;
-}
-.icon-box p {
-    font-size:16px;
-    margin-top: 5px;
+
 }
 
-.icon-box {
+#box-1 img {
+    margin-bottom: 10px;
+    width: 25%;
+    padding-top: 20px;
+}
+
+#box-1 {
     height: 300px;
     width: 400px;
     padding: 5px;
@@ -119,11 +122,70 @@ hr {
     text-transform: capitalize;
     margin-left: 25px;
     border: 2px solid rgb(190, 230, 131);
-    background-color: aliceblue;
+    background-color: rgb(247, 243, 196);
 }
 
-.icon-box img {
+#box-2 img {
     margin-bottom: 10px;
     width: 25%;
     padding-top: 20px;
+}
+
+#box-2 {
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    box-shadow: 7px 5px 20px gray;
+    border-radius: 10px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    margin-left: 25px;
+    border: 2px solid rgb(190, 230, 131);
+    background-color: rgb(227, 252, 213);
+}
+
+#box-3 img {
+    margin-bottom: 10px;
+    width: 25%;
+    padding-top: 20px;
+}
+
+#box-3 {
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    box-shadow: 7px 5px 20px gray;
+    border-radius: 10px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    margin-left: 25px;
+    border: 2px solid rgb(190, 230, 131);
+    background-color: rgb(213, 230, 245);
+}
+
+.Our-Activity {
+    display: flex;
+    text-align: center;
+    
+}
+
+#activity {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.Activity {
+    height: 170px;
+    width: 170px;
+    margin-left: 60px;
+    margin-right: 30px;
+    box-shadow: 5px 5px 20px gray;
+    border:2px solid greenyellow;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.Activity h1 {
+    margin-top: 50PX;
 }
