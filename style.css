@@ -247,6 +247,7 @@ hr {
     padding-top: 5%;
 }
 
-.footer p {
+#Name {
     color: rgb(245, 127, 30);
+    font-size: 20px;
 }
