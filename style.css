@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header Section Style */
+.header-banner {
+    background-image: url(images/banner/banner2.png);
+    height: 700px;
+    width:100vw;
+    margin-bottom: 100px;
+}
+.header-section {
+    margin-left: 600px;
+    text-align: right;
+    padding: 200px 100px;
+}
+.header-title {
+    font-size: 60px;
+}
+.header-description {
+    font-weight: 500;
+    margin-top: 10px;
+}
+.btn{
+    background-color: rgb(230, 101, 15);
+    border: none;
+    color:rgb(231, 235, 233);
+    padding: 13px 18px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
