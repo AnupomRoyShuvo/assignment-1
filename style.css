@@ -7,7 +7,7 @@
 .header-banner {
     background-image: url(images/banner/banner2.png);
     height: 700px;
-    width:100vw;
+    width:100%;
     margin-bottom: 100px;
 }
 .header-section {
@@ -33,3 +33,133 @@
     border-radius: 5px;
 }
 
+/* personal section styles */
+.personal-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+.personal-section-text {
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.personal-section-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.personal-section-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* service section styles */
+
+.service-photo {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.service-title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.service-area-title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.service-section {
+    margin-bottom: 100px;
+}
+/* image section styles */
+.image-section {
+    background: url(/images/watch.png);
+    position: relative;
+    height: 250px;
+    width: 60%;
+    align-items: center;
+    /* justify-content: left;
+     */
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.overlay {
+    background:linear-gradient(to top right,rgb(255, 102, 0) ,rgb(51, 50, 50));
+    height: 250px;
+    width: 100%;
+    opacity: .3;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -200px;
+}
+.image-section-title {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 20px;
+}
+.image-section-button {
+    background-color: rgb(255, 252, 250);
+    border: none;
+    font-size: 20px;
+    color: rgb(255, 102, 0);
+    padding: 9px 14px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.image-section-text {
+    padding: 40px;
+}
+/* Experience Section Styles */
+    .box {
+        height: 200px;
+        width:200px;
+        background: linear-gradient(rgb(241, 198, 57),rgb(153, 0, 255),rgb(255, 136, 0));
+        border-radius: 50%;
+    }
+    .experience-title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .experience {
+        display: flex;
+        justify-content:space-evenly ;
+    }
+ .box-title {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(31, 41, 26);
+    margin-top: 70px;
+ }
+ .my-experience {
+    margin-bottom: 80px;
+ }
+
+/* footer section styles */
+
+.footer-section {
+    background-color: black;
+    max-width: 100%;
+    height: 200px;
+    color: aliceblue;
+    line-height: 30px;
+    display: flex;
+    gap: 200px;
+    padding: 150px;
+}
+.future-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.image-boxes {
+    margin-top: 20px;
+}
+input {
+    padding:10px 17px
+}
